@@ -1,0 +1,31 @@
+
+ #mercy {
+    color: blue;
+    background-color: yellow;
+}
+#mary {
+    color: green;
+    background-color: black;
+}
+#about{
+    color: brown;
+}
+.green{
+    color: green;
+    background-color: black;
+}
+.red {
+    color: red;
+    background-color: yellow;
+}
+#tit {
+    font-size: 50px;
+}
+#love {
+    font-size: 50px;
+    font-family: monospace;
+    color: blue;
+    line-height: 2.5;
+    border: 10px solid red;
+    background-color: yellow;
+}

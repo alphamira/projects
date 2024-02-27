@@ -1,0 +1,178 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+    box-sizing: border-box;
+
+}
+body{
+    background: #000;
+    color: #fff;
+ 
+    
+}
+.header{
+    width:100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(mainimage.jpg);
+    background-size: cover;
+    background-position: center;
+    padding:10px 8px;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.logo{
+    width: 150px;
+    cursor: pointer;
+}
+nav button{
+    border:0%;
+    outline: 0%;
+    background:red;
+    color:white;
+    padding: 7px 20px;
+    font-size: 12px;
+    border-radius:5px;
+    margin: left 10px;
+    cursor: pointer;
+}
+.language{
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 2px solid white;
+    padding: 7px 10px;
+}
+
+.header-content{
+    justify-content: center;
+    text-align: center;
+    margin: 100px 70px;
+    position:absolute;
+    top: 40%;
+    left: 20%;
+    
+}
+.header-content h1{
+    font-size: 60px;
+line-height: 70px;
+width: 400;
+max-width: 600px;
+}
+.header-content h5{
+    font-size: 15px;
+    
+}
+.email-signup{
+    background: #8a0505;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 30px;
+    }
+ .input{
+    width: 500px;
+    height: 40px;
+    color: #8d8383;
+    border: 2px solid red;
+    flex: 1;
+
+}
+.but{
+    background-color: red;
+    color: #fff;
+    border-radius: 7px;
+    padding: 10px;
+    cursor: pointer;
+}
+    .features{
+        padding:50px 12% ;
+        font-size: 20px;
+
+    }
+    .row{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        padding: 80px 0;
+        flex-wrap:wrap;
+    }
+    .text-col{
+        flex-basis: 50%;
+        margin-bottom: 20px;
+    }
+    .img-col{
+        flex-basis: 50%;
+        margin-bottom: 20px;
+    }
+    .img-col img{
+        display: block;
+        width: 90%;
+        margin: auto;
+    }
+    .text-col h2{
+        font-size: 60px;
+        font-weight: 50%;
+         margin-bottom: 20px;
+    }
+    .faq{
+        padding: 10px 15%;
+        text-align: center;
+       
+     
+    }
+    .faq h2{
+        font-weight: 500;
+        font-size: 50px;
+    }
+    .questions{
+        margin: 60px auto;
+        width: 100%;
+        max-width: 750px;
+    }
+    .questions li{
+        list-style: none;
+        width:  100%;
+        padding: 5px;
+    }
+    .questions li label{
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        font-size: 20px;
+        font-weight: 500;
+        background: #9c1414;
+        margin-bottom: 2px;
+        cursor: pointer;
+        position: relative;
+ }
+ label::after{
+    content: "+";
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+
+ }
+ input[ type="radio"]{
+    display: none;
+ }
+ .questions .content{
+    background: #8d8383;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+ }
+ 
+
+
+ 
+
+
+

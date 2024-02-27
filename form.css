@@ -1,0 +1,26 @@
+body{
+    background-color: burlywood;
+}
+h1{
+    font-size: 50px;
+    font-weight: 600px;
+    margin: 30px;
+    color: crimson;
+    
+}
+.container{
+    font-size: 30px;
+    margin: 40px;
+    justify-content: space-between;
+    align-items: start;
+   
+
+}
+.container input{
+    width: 500px;
+    padding: 15px;
+   background-color: rgb(160, 160, 177);
+   color: white;
+   
+
+}

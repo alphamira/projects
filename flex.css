@@ -1,0 +1,31 @@
+body {
+    /* background-color: aqua; */
+}
+.container{
+    background-color: chocolate;
+    background-size: contain;
+    padding: 5px;
+}
+
+.gallery-item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 10px;
+}
+.gallery-item img .image1 .image2 .image3 { 
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+}
+.gallery-text {
+    color: blue;
+    background-color: blueviolet;
+    padding: 45px;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
